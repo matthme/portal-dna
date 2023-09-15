@@ -9,9 +9,9 @@ name = "portal_api"
 crate-type = ["cdylib", "rlib"]
 
 [dependencies]
-hc_crud_caps = "0.8.0"
+hc_crud_caps = { git = "https://github.com/mrruby/rust-hc-crud-caps", rev = "2c5494834d8ba55bb3f5d1f30352e35cee947513"}
 hc_utils = {path = "../../hc_utils"}
-hdk = "0.2.1-beta-rc.0"
+hdk = "0.2.2"
 hex = "0"
 portal = {path = "../portal"}
 rand = "0.8.5"
