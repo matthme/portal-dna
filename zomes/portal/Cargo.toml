@@ -12,8 +12,8 @@ crate-type = ["cdylib", "rlib"]
 essence_payloads = "0.1"
 hc_crud_caps = { git = "https://github.com/mrruby/rust-hc-crud-caps", rev = "2c5494834d8ba55bb3f5d1f30352e35cee947513"}
 hc_utils = {path = "../../hc_utils"}
-hdi = "0.3.2"
-hdk = "0.2.2"
+hdi = "0.3.3-beta-rc.0"
+hdk = "0.2.3-beta-rc.0"
 hc_portal_types = {path = "../../portal_types"}
 rmpv = { version = "1.0.0", features = ["with-serde"] }
 serde = "1"
