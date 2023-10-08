@@ -9,7 +9,7 @@ name = "portal_api"
 crate-type = ["cdylib", "rlib"]
 
 [dependencies]
-hc_crud_caps = { git = "https://github.com/mrruby/rust-hc-crud-caps", rev = "2c5494834d8ba55bb3f5d1f30352e35cee947513"}
+hc_crud_caps = { git = "https://github.com/matthme/rust-hc-crud-caps", branch = "holochain-0.2.3-beta-rc.1" }
 hc_utils = {path = "../../hc_utils"}
 hdk = "0.2.3-beta-rc.0"
 hex = "0"
